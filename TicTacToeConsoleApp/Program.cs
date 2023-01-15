@@ -19,8 +19,8 @@ namespace TicTacToeConsoleApp
             board[7] = 0;
             board[8] = 0;
 
-            int userTurn = 1;
-            int playerZero = 1;
+            int userTurn = -1;
+            int playerZero = -1;
             Random zero= new Random();
 
             while (checkForWinner() == 0)
