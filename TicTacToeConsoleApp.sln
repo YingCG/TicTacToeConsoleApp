@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDelegates", "BasicDele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anonymous delegates", "Anonymous delegates\Anonymous delegates.csproj", "{7FE5E2FE-D575-46A4-93AC-9680529A508A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingCostWithoutDelegate", "ShippingCostDelegate\ShippingCostWithoutDelegate.csproj", "{EE083803-FB33-44A3-9A59-E55C08A7939A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingInfoDelegate", "ShippingInfoDelegate\ShippingInfoDelegate.csproj", "{3445ADF2-47D8-4AE6-9AA5-C5EA37DE0FB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{7FE5E2FE-D575-46A4-93AC-9680529A508A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FE5E2FE-D575-46A4-93AC-9680529A508A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FE5E2FE-D575-46A4-93AC-9680529A508A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE083803-FB33-44A3-9A59-E55C08A7939A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE083803-FB33-44A3-9A59-E55C08A7939A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE083803-FB33-44A3-9A59-E55C08A7939A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE083803-FB33-44A3-9A59-E55C08A7939A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3445ADF2-47D8-4AE6-9AA5-C5EA37DE0FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3445ADF2-47D8-4AE6-9AA5-C5EA37DE0FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3445ADF2-47D8-4AE6-9AA5-C5EA37DE0FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3445ADF2-47D8-4AE6-9AA5-C5EA37DE0FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
