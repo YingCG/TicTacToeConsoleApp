@@ -34,20 +34,17 @@ namespace OOPExamples
             computer1.TogglePower();
             Console.WriteLine("Computer is on: " + computer1.isOn);
 
-            //Console.WriteLine("Press S to toggle the power");
-            //var toggle = Console.ReadKey();
-
-            //do
-            //{
-            //    if (toggle.KeyChar == 's')
-            //    {
-            //        computer1.TogglePower();
-            //        Console.WriteLine("Computer is on: " + computer1.isOn);
-            //    }
-            //    else
-            //    {
-            //    }
-            //} while (toggle.KeyChar != 'q');
+            Console.WriteLine("Press S to toggle the power");
+            ConsoleKeyInfo toggle;
+            do
+            {
+                toggle = Console.ReadKey();
+                if (toggle.KeyChar == 's')
+                {
+                    computer1.TogglePower();
+                    Console.WriteLine("Computer is on: " + computer1.isOn);
+                }
+            } while (toggle.KeyChar != 'q');
             Console.ReadLine();
         }
     }
