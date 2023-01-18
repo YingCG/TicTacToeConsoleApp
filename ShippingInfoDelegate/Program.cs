@@ -23,7 +23,7 @@ namespace ShippingInfoDelegate
                 var productPrice = Console.ReadLine();
                 //ShippingDelegate newOrder = FeeCalculate;
 
-                ShippingInfo order1 = new Zone1();
+                ShippingInfo order1 = new ShippingInfo();
                 Console.WriteLine(order1.FeeCalculate(zone, decimal.Parse(productPrice)).ToString());
             }
 
